@@ -28,7 +28,9 @@ palindrome("five|\_/|four") should return false.
 */
 
 function palindrome(str) {
-
+  return str.toLowerCase().replace(/[\W_]/g, '') === str.toLowerCase().replace(/[\W_]/g, '').split('').reverse().join('');
 }
+
+
 
 palindrome("eye");
