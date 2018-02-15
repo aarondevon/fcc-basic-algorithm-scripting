@@ -27,3 +27,8 @@ palindrome("0_0 (: /-\ :) 0-0") should return true.
 palindrome("five|\_/|four") should return false.
 */
 
+function palindrome(str) {
+
+}
+
+palindrome("eye");
